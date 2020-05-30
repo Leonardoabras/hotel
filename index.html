@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<title>Hotel Online</title>
+<h1>Reserva Online de Hotel</h1>
+<p>Preencha abaixo as informações pedidas.</p>
+<h2>Reserva</h2>
+</head>
+<p></p>
+<body></body>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Preencha:</legend>
+    <form action="/action_page.php">
+        <label for="hotel">Selecione um Hotel:</label>
+        <select id="hotel" name="hotel">
+          <option value="ibis">Ibis</option>
+          <option value="Abba">Abba</option>
+        </select><br><br>
+      </form>
+    <label for="lname">Inicio de Viagem:</label><br>
+    <input type="date" placeholder="Coloque a data de inicio" min="2020-03-09" max="" required><br><br>
+    <label for="fname">Fim de Viagem:</label><br>
+    <input type="date" placeholder="Coloque a data final"required><br>
+    <p></p>
+    <label for="fname">Digite a quantidade de hospedes:</label><br>
+    <input type="number" id="fname" name="fname"min="1" max="4" placeholder="Ex: 3"required><br>
+    <p></p>
+    <label for="fname">Seu nome completo:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Escreva seu nome completo"required><br>
+    <p></p>
+    <label for="fname">Seu número de telefone:</label><br>
+    <input type="tel" pattern="[0-9]{5}-[0-9]{4}"id="telefone" placeholder="Digite seu telefone" required><br>
+    <p></p>
+    <label for="fname">Seu e-mail:</label><br>
+    <input type="email" id="email" placeholder="Digite seu e-mail" name="fname"required><br>
+    <p></p> 
+    
+    <input type="submit" value="Confirmar">
+  </fieldset>
+</form>
+
+</body>
+</html>
+
+<script>
+         function agora(){
+           return (new date.now
+         }
+
+
+</script>
